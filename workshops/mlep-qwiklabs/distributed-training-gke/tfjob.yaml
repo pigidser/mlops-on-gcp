@@ -25,7 +25,7 @@ spec:
       template:
         spec:
           containers:
-            - name: tensorflow
+            - name: mnist-train
               image: mnist
               args:
                 - --epochs=5
