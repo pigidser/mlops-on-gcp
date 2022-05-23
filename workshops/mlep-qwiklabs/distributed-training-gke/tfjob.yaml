@@ -25,8 +25,8 @@ spec:
       template:
         spec:
           containers:
-            - name: mnist-train
-              image: mnist
+            - name: tensorflow
+              image: gcr.io/qwiklabs-gcp-00-170adb93a006/mnist-train
               args:
                 - --epochs=5
                 - --steps_per_epoch=100
